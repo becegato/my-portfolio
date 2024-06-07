@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Data Science Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Data Science Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Luísa, a data scientist with over 10 years of experience. I started my journey in data analysis during my college years and have since applied my skills across various business including marketing, healthcare, and economics. I am proficient in Python and have extensive experience with machine learning libraries and tools. I'm passionate about using data to solve real-world problems and driving business growth.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Customer Churn Prediction</h3>
+            <p>Developed a model to predict customer churn using logistic regression in Python. Utilized libraries such as Pandas, NumPy, and Scikit-learn to preprocess data and train the model.</p>
+        </div>
+        <div class="project">
+            <h3>Web Scraping for Business Intelligence</h3>
+            <p>Led a project to scrape data from various online sources including government websites. Built a robust web scraping tool using BeautifulSoup and Selenium to gather and analyze data for business promotion strategies.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please reach out via email at <a href="mailto:luisa.becegato@gmail.com">your.email@example.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Luísa Becegato. All rights reserved.</p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
